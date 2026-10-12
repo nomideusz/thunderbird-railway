@@ -1,6 +1,6 @@
 # Deploy and Host Thunderbird on Railway
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/new/template/thunderbird?utm_medium=integration&utm_source=button&utm_campaign=thunderbird)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/new/template/thunderbird?referralCode=sLjDXb&utm_medium=integration&utm_source=button&utm_campaign=thunderbird)
 
 This template runs the full desktop [Thunderbird](https://www.thunderbird.net/) application in the cloud, streamed to any device through the [linuxserver.io](https://docs.linuxserver.io/images/docker-thunderbird/) Selkies web interface. Open your Railway domain, log in, and Thunderbird is running on the server with its files, settings and plugins persisted between visits.
 
@@ -34,7 +34,7 @@ Notes and limits:
 - Rendering is CPU-based (no GPU on Railway). Fine for the application UI and light media; not for GPU-accelerated work.
 - Give the service 2 GB of RAM or more; desktop applications are memory-hungry.
 - Only `/config` persists. Anything installed outside it is gone after a redeploy.
-- Want a whole desktop instead of one app? The same author publishes a [Linux Desktop](https://railway.com/deploy/linux-desktop) template.
+- Want a whole desktop instead of one app? The same author publishes a [Linux Desktop](https://railway.com/deploy/linux-desktop?referralCode=sLjDXb) template.
 
 ## Why Deploy Thunderbird on Railway?
 
