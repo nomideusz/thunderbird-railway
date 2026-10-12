@@ -1,4 +1,4 @@
-FROM linuxserver/thunderbird:latest
+FROM linuxserver/thunderbird:1140.16.0build1-0ubuntu0.24.04.1mt1-ls54
 
 # Upstream starts Xvfb with a 15360x8640 screen, which pins ~600 MB for the
 # framebuffer alone and OOM-kills the desktop on Railway's 512 MB Trial plan.
